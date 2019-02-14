@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories{
+    maven {
+        url "http://cdlnexus01:8081/nexus/content/groups/public/"
+    }
+}
+
+dependencies{
+    testCompile 'junit:junit:4.+'
+
+}
