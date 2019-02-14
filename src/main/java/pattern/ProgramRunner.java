@@ -1,10 +1,10 @@
-package main.java.pattern;
+package pattern;
 
-import main.java.runner.Runner;
-import main.java.runner.impl.ConsoleInputRunner;
-import main.java.runner.impl.DemoFileInputRunner;
-import main.java.runner.impl.ExitApplicationRunner;
-import main.java.runner.impl.FileInputRunner;
+import runner.Runner;
+import runner.impl.ConsoleInputRunner;
+import runner.impl.DemoFileInputRunner;
+import runner.impl.ExitApplicationRunner;
+import runner.impl.FileInputRunner;
 
 public class ProgramRunner {
 

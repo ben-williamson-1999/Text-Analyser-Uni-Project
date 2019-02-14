@@ -1,12 +1,12 @@
-package tests.java.output;
+package output;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import main.java.anayser.impl.CharacterFrequencyTextAnalyser;
-import main.java.datamodel.DataModel;
-import main.java.renderer.impl.CharacterFrequencyRenderer;
+import anayser.impl.CharacterFrequencyTextAnalyser;
+import datamodel.DataModel;
+import renderer.impl.CharacterFrequencyRenderer;
 
 public class CharacterFrequencyOutputTests {
 

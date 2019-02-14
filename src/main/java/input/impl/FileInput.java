@@ -1,10 +1,10 @@
-package main.java.input.impl;
+package input.impl;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-import main.java.input.TextInput;
-import main.java.output.impl.ConsoleOutput;
+import input.TextInput;
+import output.impl.ConsoleOutput;
 
 public class FileInput implements TextInput {
 
@@ -34,7 +34,7 @@ public class FileInput implements TextInput {
 
 		new ConsoleOutput().output("Please enter the Filename you want to analyse");
 
-		String fileName = "C:\\Users\\benw\\eclipse-workspace\\Ben_Williamson_17072603\\src\\main\\resources\\"
+		String fileName = ".\\src\\main\\resources\\"
 				+ fileNameRetriever.getInput();
 
 		return fileName;

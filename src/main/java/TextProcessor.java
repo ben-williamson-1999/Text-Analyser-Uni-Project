@@ -1,9 +1,7 @@
-package main.java;
-
-import main.java.pattern.ProgramRunner;
-import main.java.question.Question;
-import main.java.question.impl.ModeQuestion;
-import main.java.runner.Runner;
+import pattern.ProgramRunner;
+import question.Question;
+import question.impl.ModeQuestion;
+import runner.Runner;
 
 public class TextProcessor {
 

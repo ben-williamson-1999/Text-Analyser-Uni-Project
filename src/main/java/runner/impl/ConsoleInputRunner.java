@@ -1,6 +1,8 @@
-package main.java.runner.impl;
+package runner.impl;
 
-import main.java.runner.Runner;
+import runner.Runner;
+
+import static runner.Runner.*;
 
 public class ConsoleInputRunner implements Runner {
 

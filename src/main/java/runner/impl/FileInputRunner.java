@@ -1,8 +1,8 @@
-package main.java.runner.impl;
+package runner.impl;
 
-import main.java.input.impl.ConsoleInput;
-import main.java.input.impl.FileInput;
-import main.java.runner.Runner;
+import input.impl.ConsoleInput;
+import input.impl.FileInput;
+import runner.Runner;
 
 public class FileInputRunner implements Runner {
 

@@ -1,6 +1,6 @@
-package main.java.renderer;
+package renderer;
 
-import main.java.datamodel.DataModel;
+import datamodel.DataModel;
 
 public interface TextRenderer {
 	

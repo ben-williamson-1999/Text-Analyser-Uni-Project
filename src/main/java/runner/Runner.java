@@ -1,13 +1,13 @@
-package main.java.runner;
+package runner;
 
-import main.java.anayser.impl.CharacterFrequencyTextAnalyser;
-import main.java.anayser.impl.GeneralTextAnalyser;
-import main.java.anayser.impl.RelativeFrequencyTextAnalyser;
-import main.java.input.impl.ConsoleInput;
-import main.java.output.impl.ConsoleOutput;
-import main.java.renderer.impl.CharacterFrequencyRenderer;
-import main.java.renderer.impl.GeneralRenderer;
-import main.java.renderer.impl.RelativeFrequencyRenderer;
+import anayser.impl.CharacterFrequencyTextAnalyser;
+import anayser.impl.GeneralTextAnalyser;
+import anayser.impl.RelativeFrequencyTextAnalyser;
+import input.impl.ConsoleInput;
+import output.impl.ConsoleOutput;
+import renderer.impl.CharacterFrequencyRenderer;
+import renderer.impl.GeneralRenderer;
+import renderer.impl.RelativeFrequencyRenderer;
 
 public interface Runner {
 

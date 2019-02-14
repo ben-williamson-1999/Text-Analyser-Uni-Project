@@ -1,4 +1,4 @@
-package main.java.anayser.impl;
+package anayser.impl;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -8,8 +8,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import main.java.anayser.TextAnalyser;
-import main.java.datamodel.DataModel;
+import anayser.TextAnalyser;
+import datamodel.DataModel;
 
 public class GeneralTextAnalyser implements TextAnalyser {
 

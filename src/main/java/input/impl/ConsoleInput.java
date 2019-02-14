@@ -1,8 +1,8 @@
-package main.java.input.impl;
+package input.impl;
 
 import java.util.Scanner;
 
-import main.java.input.TextInput;
+import input.TextInput;
 
 public class ConsoleInput implements TextInput {
 

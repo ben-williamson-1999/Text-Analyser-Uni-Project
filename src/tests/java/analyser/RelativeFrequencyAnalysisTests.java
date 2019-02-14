@@ -1,12 +1,12 @@
-package tests.java.analyser;
+package analyser;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 
-import main.java.anayser.impl.RelativeFrequencyTextAnalyser;
-import main.java.datamodel.DataModel;
+import anayser.impl.RelativeFrequencyTextAnalyser;
+import datamodel.DataModel;
 
 public class RelativeFrequencyAnalysisTests {
 

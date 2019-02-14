@@ -1,10 +1,10 @@
-package tests.java.output;
+package output;
 
 import org.junit.Test;
 
-import main.java.anayser.impl.RelativeFrequencyTextAnalyser;
-import main.java.datamodel.DataModel;
-import main.java.renderer.impl.RelativeFrequencyRenderer;
+import anayser.impl.RelativeFrequencyTextAnalyser;
+import datamodel.DataModel;
+import renderer.impl.RelativeFrequencyRenderer;
 
 import static org.junit.Assert.assertEquals;
 

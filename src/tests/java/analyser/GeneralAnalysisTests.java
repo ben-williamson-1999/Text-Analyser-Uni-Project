@@ -1,11 +1,11 @@
-package tests.java.analyser;
+package analyser;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import main.java.anayser.impl.GeneralTextAnalyser;
-import main.java.datamodel.DataModel;
+import anayser.impl.GeneralTextAnalyser;
+import datamodel.DataModel;
 
 public class GeneralAnalysisTests {
 
@@ -20,8 +20,8 @@ public class GeneralAnalysisTests {
 		// Then
 		assertEquals(5, result.getNumberOfWords());
 		assertEquals(3.8, result.getMeanWordLength(), 0.1);
-		assertEquals(4, result.getModeWordLength());
-		assertEquals(4.0, result.getMedianWordLength());
+		assertEquals(4, result.getModeWordLength(), 0.1);
+		assertEquals(4.0, result.getMedianWordLength(), 0.1);
 		assertEquals(4, result.getRangeWordLength());
 		assertEquals(6,result.getLongestWord());
 		assertEquals(2, result.getShortestWord());
@@ -39,8 +39,8 @@ public class GeneralAnalysisTests {
 		// Then
 		assertEquals(3, result.getNumberOfWords());
 		assertEquals(3.3, result.getMeanWordLength(), 0.1);
-		assertEquals(4, result.getModeWordLength());
-		assertEquals(4.0, result.getMedianWordLength());
+		assertEquals(4, result.getModeWordLength(), 0.1);
+		assertEquals(4.0, result.getMedianWordLength(),0.1);
 		assertEquals(2, result.getRangeWordLength());
 		assertEquals(4, result.getLongestWord());
 		assertEquals(2, result.getShortestWord());

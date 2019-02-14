@@ -1,6 +1,6 @@
-package main.java.anayser;
+package anayser;
 
-import main.java.datamodel.DataModel;
+import datamodel.DataModel;
 
 public interface TextAnalyser {
 	

@@ -1,4 +1,4 @@
-package main.java.output;
+package output;
 
 public interface Output {
 

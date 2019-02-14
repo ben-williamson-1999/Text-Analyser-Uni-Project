@@ -1,4 +1,4 @@
-package main.java.datamodel;
+package datamodel;
 
 import java.util.Map;
 

@@ -1,11 +1,10 @@
-package tests.java.input;
+package input;
 
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import main.java.input.TextInput;
-import main.java.input.impl.FileInput;
+import input.impl.FileInput;
 
 import static org.junit.Assert.assertEquals;
 

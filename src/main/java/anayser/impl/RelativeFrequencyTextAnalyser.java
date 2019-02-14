@@ -1,9 +1,9 @@
-package main.java.anayser.impl;
+package anayser.impl;
 
 import java.util.Map;
 
-import main.java.anayser.TextAnalyser;
-import main.java.datamodel.DataModel;
+import anayser.TextAnalyser;
+import datamodel.DataModel;
 
 public class RelativeFrequencyTextAnalyser extends CharacterFrequencyTextAnalyser implements TextAnalyser {
 

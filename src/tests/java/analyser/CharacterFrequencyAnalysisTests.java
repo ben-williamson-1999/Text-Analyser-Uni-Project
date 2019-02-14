@@ -1,12 +1,12 @@
-package tests.java.analyser;
+package analyser;
 
 import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 
-import main.java.anayser.impl.CharacterFrequencyTextAnalyser;
-import main.java.datamodel.DataModel;
+import anayser.impl.CharacterFrequencyTextAnalyser;
+import datamodel.DataModel;
 
 public class CharacterFrequencyAnalysisTests {
 

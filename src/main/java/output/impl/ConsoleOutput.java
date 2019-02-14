@@ -1,6 +1,6 @@
-package main.java.output.impl;
+package output.impl;
 
-import main.java.output.Output;
+import output.Output;
 
 public class ConsoleOutput implements Output{
 

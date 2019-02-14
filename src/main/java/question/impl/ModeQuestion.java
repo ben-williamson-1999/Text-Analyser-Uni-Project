@@ -1,12 +1,12 @@
-package main.java.question.impl;
+package question.impl;
 
-import main.java.input.impl.ConsoleInput;
-import main.java.output.impl.ConsoleOutput;
-import main.java.question.Question;
+import input.impl.ConsoleInput;
+import output.impl.ConsoleOutput;
+import question.Question;
 
 public class ModeQuestion implements Question{
 	
-	private static final String QUESTION_TEXT = "Welcome To My Application\nPlease Choose If You Want To\n\t·Input Text Via The Console (console)\n\t·Input the Name of the File (file)\n\t·Demo the Application (demo)\n\t·Exit the Application (exit)";
+	private static final String QUESTION_TEXT = "Welcome To My Application\nPlease Choose If You Want To\n\tï¿½Input Text Via The Console (console)\n\tï¿½Input the Name of the File (file)\n\tï¿½Demo the Application (demo)\n\tï¿½Exit the Application (exit)";
 	
 	public String askQuestion() {
 		new ConsoleOutput().output(QUESTION_TEXT);

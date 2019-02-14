@@ -1,9 +1,9 @@
-package main.java.renderer.impl;
+package renderer.impl;
 
 import java.util.Map;
 
-import main.java.datamodel.DataModel;
-import main.java.renderer.TextRenderer;
+import datamodel.DataModel;
+import renderer.TextRenderer;
 
 public class CharacterFrequencyRenderer implements TextRenderer{
 

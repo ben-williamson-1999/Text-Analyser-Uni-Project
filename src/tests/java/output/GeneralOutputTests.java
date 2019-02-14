@@ -1,10 +1,10 @@
-package tests.java.output;
+package output;
 
 import org.junit.Test;
 
-import main.java.anayser.impl.GeneralTextAnalyser;
-import main.java.datamodel.DataModel;
-import main.java.renderer.impl.GeneralRenderer;
+import anayser.impl.GeneralTextAnalyser;
+import datamodel.DataModel;
+import renderer.impl.GeneralRenderer;
 
 import static org.junit.Assert.assertEquals;
 

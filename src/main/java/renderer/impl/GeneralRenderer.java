@@ -1,7 +1,7 @@
-package main.java.renderer.impl;
+package renderer.impl;
 
-import main.java.datamodel.DataModel;
-import main.java.renderer.TextRenderer;
+import datamodel.DataModel;
+import renderer.TextRenderer;
 
 public class GeneralRenderer implements TextRenderer{
 

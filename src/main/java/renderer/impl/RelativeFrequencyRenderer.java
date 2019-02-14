@@ -1,10 +1,10 @@
-package main.java.renderer.impl;
+package renderer.impl;
 
 import java.util.Formatter;
 import java.util.Map;
 
-import main.java.datamodel.DataModel;
-import main.java.renderer.TextRenderer;
+import datamodel.DataModel;
+import renderer.TextRenderer;
 
 public class RelativeFrequencyRenderer implements TextRenderer{
 

@@ -1,7 +1,7 @@
-package main.java.runner.impl;
+package runner.impl;
 
-import main.java.output.impl.ConsoleOutput;
-import main.java.runner.Runner;
+import output.impl.ConsoleOutput;
+import runner.Runner;
 
 public class ExitApplicationRunner implements Runner{
 

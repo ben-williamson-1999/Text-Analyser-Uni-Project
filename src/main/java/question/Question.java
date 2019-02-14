@@ -1,4 +1,4 @@
-package main.java.question;
+package question;
 
 public interface Question {
 
